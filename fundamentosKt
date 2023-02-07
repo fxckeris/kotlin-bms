@@ -1,1 +1,30 @@
-
+/*
+fun main() {
+   //exercício: fazer um diálogo de mínimo 10 linhas usando a declaração println()
+   //
+   println("Proletário_ O que é socialismo?")
+   println("Karl Marx_ O Socialismo é a fase de Transição para o Comunismo")
+   println("Proletário_ Ok, mas e o comunismo? O que é?")
+   println("Karl Marx_ O Comunismo nada mais é que a socialização dos meios de produção, extinção das classes e do estado.")
+   println("Proletário_ Certo, agora explique o socialismo.")
+   println("Karl Marx_ Sendo o Socialismo a etapa de transição para o Comunismo, a burguesia, que são os patrões, devem deixar de existir.")
+   println("Karl Marx_ E para isso, o proletariado deve se organizar em partidos ou sindicatos revolucionários.")
+   println("Proletário_ E depois disso? Qual é a nossa missão?")
+   println("Karl Marx_ Com os trabalhadores unidos, o objetivo é tomar os meios de produção e mudar o caráter do estado, sem a burguesia.")
+   println("Proletário_ Então, como disse o próprio manifesto comunista: Proletários de todos os países, uni-vos!")
+   
+   //Variáveis - armazenam valores, dados, irformações.
+  
+   //val - não mutável - não podemos alterar seu valor.
+   //var - mutável - podemos mudar seu valor.
+   //
+   //Tipos de variáveis:
+   //
+   //String -
+   //Int -
+   //Float -
+   //Double -
+   //Long -
+   //Boolean -
+}
+*/
