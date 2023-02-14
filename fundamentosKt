@@ -79,7 +79,28 @@ fun main() {
 
 */
 //------------------------------------------------------------------------------------------------------------
-
+fun main() {
+    var n1 = 2
+    var n2 = 5
+    println("*************-------------*************")
+    println("**                                   **")
+    println("**                                   **")
+    println("**A Adição de 5 mais 5 é " + (n2 + n2))
+    println("**                                   **")
+    println("**A Subtração de 5 menos 2 é " + (n2 - n1))
+    println("**                                   **")
+    println("**A Divisão de 5 por 5 é " + (n2 / n2))
+    println("**                                   **")
+    println("**A Multiplicação de 2 por 2 é " + (n1 * n1))
+    println("**                                   **")
+    println("**                                   **")
+    println("**     CONTINUE CALCULANDO SEMPRE!     ")
+    println("**                                   **")
+    println("**                :)                 **")
+    println("**                                   **")
+    println("*************-------------*************")
+    
+}
 
 
 
