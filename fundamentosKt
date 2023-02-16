@@ -106,4 +106,72 @@ fun main() {
 
 
 }
+
+fun main() {
+
+    //Condições 
+    //
+    //condição simples
+    //
+    // if --> se...
+    // else --> senão...
+    /*
+    var lembreiDoChocolate = "Sim"
+    
+    if(lembreiDoChocolate == "Sim"){
+        println("Vou entregar o chocolate para você")
+    }else{
+        println("Chocolate pra todo mundo!")
+    }
+    //se a condição for verdadeira, a sua ação será executada, senão, outra ação será
+    //executada
+    //Exercício --> Faça uma comparação, usando uma variável e o if...else, se essa
+    //comparação for verdadeira, um resultado deverá ser impresso, senão, outro
+    //será impresso 
+    
+    var Comunismo = "Poder"
+    
+    if(Comunismo == "Poder"){
+        println("O proletáriado venceu")
+    }else{
+        println("Vai pra cuba")
+    }
+    
+    //Condições Composta
+    
+    var coracoes = 1 
+    
+    if(coracoes >=5){
+        println("Você está ótimo, que bom pra você!")
+    }else if(coracoes == 4){
+        println("Está bem, na medida do possível.")
+    }else if(coracoes == 3){
+        println("Ainda pode melhorar, e cuidado!")
+    }else if(coracoes == 2){
+        println("Provavelmente morre em 2 semanas.")
+    }else if(coracoes == 1){
+        println("Está podre, vai de vasco!")
+    }else{
+        println("F")
+    }
+    
+    var idade = 18
+    
+    if(idade <= 3){
+        println("Você é um nenê.")
+    }else if(idade <= 12){
+        println("Você é uma criança.")
+    }else if(idade <=18){
+        println("Já é jovem e sente a pressão do capital. Aproveite, porque piora.")
+    }else if(idade <=60){
+        println("Você é adulto e já é um proletário triste.")
+    }else if(idade >=60){
+        println("Espero que tenha conseguido se aposentar.")
+    }else("Foi de berço ou nunca existiu.")
+    */
+    
+    
+    
+    
+}
 */
