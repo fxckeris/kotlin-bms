@@ -174,4 +174,58 @@ fun main() {
     
     
 }
+
+fun main() {
+    
+    //Operadoradores Lógicos
+    //
+    //São usados quando queremos comparar mais de uma coisa na mesma condição.
+    //
+    //&& -> e 
+    //|| -> ou
+    //
+    //TABELA VERDADE (com e/ou)
+    //
+    //&& - A determinada ação só acontecerá se todas as condições forem verdadeiras, sem exceções.
+    //
+    //VV -> Verdadeiro
+    //VF -> Falso
+    //FV -> Falso
+    //FF ->	Falso
+    //
+    // || - A determinada ação será executada se pelo menos uma das ações for verdadeira. 
+    //
+    //VV -> Verdadeiro
+    //VF -> Verdadeiro
+    //FV -> Verdadeiro
+    //FF -> Falso
+    //
+    //Show do Garotos Podres
+    /*
+    var idade = 14
+    var acompanhadoDosPais = false    
+    
+    
+    if(idade >=14 || acompanhadoDosPais == true){
+        println("Pode entrar, bom show.")
+    }else{
+        println("Não entra, pode ir embora.")
+    }
+    */
+
+    //Exercício - A seleção brasileira está correndo risco de ser eliminada na fase de grupos
+    //da copa, o Brasil só pode se classificar se a Alemanha perder e se o Brasil ganhar.
+    //As partidas já passaram, quero saber se o Brasil se classificou ou não.
+    
+   /*
+    var brasilVenceu = "Sim"
+    var alemanhaVenceu = "Não"
+    
+    if(brasilVenceu == "Sim" && alemanhaVenceu == "Não"){
+        println("O Brasil vence a partida e se classifica!")
+        }else{
+        println("O Brasil está eliminado...")
+    }
+   */ 
+}
 */
