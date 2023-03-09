@@ -250,6 +250,7 @@ fun main() {
         println(number)
         number++
     }
+    //-------------------------------------------------------------------------------------------------------------
     */ 
 
     // Laço do..while
@@ -331,3 +332,55 @@ fun main() {
 }
     
 */
+fun main() {
+    
+    //Collections
+    //
+    // <> -> tags - servem para especificar o tipo de valor a ser listado.
+    //
+    // São conjuntos de itens/valores que podem ser modelados e utilizados em determinados métodos e operações.
+    // 
+    //List
+    //
+    // listof -> listam itens de tipos variados.
+    /*
+    var genericList = mutableListOf("São Paulo, arroz e pamonha", 25.7f, 23.974, '$', false)
+       println(genericList)
+    
+    var specificList = listOf<String>("Marxismo", "Leninismo", "Antifascismo")
+       println(specificList)
+    
+//Index - uma posição da collection (0 conta)    
+    
+    //Propriedades - list
+    //
+    // .lastIndex
+    // .size
+    // .get
+    //
+    //println(specificList.lastIndex)
+    //println(specificList.size)
+    //println(specificList.get(1)) ou println(specificList[1])
+   
+   
+    //Métodos listOf
+    genericList.add(2, "oi") //Pode ou não ser expecificado em qual index o 'add' vai ser inserido com o número do index.
+    println(genericList)
+   
+    
+    genericList.removeAt(3)
+    println(genericList)
+    
+    genericList.set(0, "tartaruga") //Serve para substituir, expecificando o Index e o novo valor.
+    println(genericList)
+    
+    genericList.clear()
+    println(genericList)
+    */
+    
+    var anotherList = setOf("Engels", "Marx", "Lenin", "Stalin", "Che Guevara", "Mao Zedong")
+       println(anotherList)
+    
+    var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "Tucano" to 2, "Hiena" to 3, "Macaco" to 4)
+}
+//------------------------------------------------------------------------------------------------
