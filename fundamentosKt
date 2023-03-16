@@ -417,6 +417,10 @@ fun main() {
      println("Nome:"+pessoa1.nome)
      pessoa1.cpf = "123.456.789.10"
      println("CPF:"+pessoa1.cpf)
+     pessoa1.idade = 53
+     println("Idade:"+pessoa1.idade)
+     pessoa1.altura = 1.72
+     println("Altura:"+pessoa1.altura)
      pessoa1.tipoSanguineo = "O+"
      println("Tipo Sanguíneo:"+pessoa1.tipoSanguineo)
      pessoa1.medicamentos = "Sem medicamentos prescritos"
@@ -424,7 +428,7 @@ fun main() {
      pessoa1.alergias = "Sem alergia"
      println("Alergias:"+pessoa1.alergias)
      pessoa1.obsCheckup = "No último checkup o senhor Alberto apresentou os seguintes sintomas: Fadiga, falta de ar, cansaço, dor nas circulações. Concluímos que Alberto precisa NECESSARIAMENTE de fisioterapia e de uma melhor alimentação. Esse relatório será repassado para o fisioterapeuta da unidade de saúde mais próxima."     
-     println("Checkup:" pessoa1.obsCheckup)
+     println("Checkup:"+pessoa1.obsCheckup)
 }
          
      class Pessoa(){
