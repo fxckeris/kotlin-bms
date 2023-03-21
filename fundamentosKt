@@ -444,3 +444,49 @@ fun main() {
          
 }
 //-----------------------------------------------------------------------------------------------------------------
+/* 
+fun main() {
+  var comunista1 = Revolucionario("Nome: Sao.", "Partido: Unidade Popular pelo socialismo.",
+                                  "Núcleo: Parque da Juventude.", "Entidades: UJR, Rebele-se e Olga Benário.",
+                                  "Atuação: Movimento estudantil e luta feminista.", 7)  
+println(comunista1.nome)
+println(comunista1.partido)
+println(comunista1.nucleo)
+println(comunista1.entidades)
+println(comunista1.atuacaoAtual)
+println(comunista1.recrutamentos)    
+}
+class Revolucionario(var nome: String, 
+                     var partido: String, 
+                     var nucleo: String,
+                     var entidades: String,
+                     var atuacaoAtual: String, 
+                     var recrutamentos: Int & String){
+
+
+
+}
+*/
+
+//Exercício - Descreva militantes do partido exibindo nome, entidades, atuação e recrutamentos
+//permitido inventar militantes
+fun main(){
+var comunista1 = Revolucionario("Nome: Sao.", "Partido: Unidade Popular pelo socialismo.",
+                                  "Núcleo: Parque da Juventude.", "Entidades: UJR, Rebele-se e Olga Benário.",
+                                  "Atuação: Movimento estudantil e luta feminista.", 7)  
+println(comunista1.nome)
+println(comunista1.partido)
+println(comunista1.nucleo)
+println(comunista1.entidades)
+println(comunista1.atuacaoAtual)
+println(comunista1.recrutamentos)    
+}
+
+class Revolucionario(var nome: String, 
+                     var partido: String, 
+                     var nucleo: String,
+                     var entidades: String,
+                     var atuacaoAtual: String, 
+                     var recrutamentos: Int){
+}
+//------------------------------------------------------------------------------------------------------------------------------------------------
