@@ -490,3 +490,46 @@ class Revolucionario(var nome: String,
                      var recrutamentos: Int){
 }
 //------------------------------------------------------------------------------------------------------------------------------------------------
+fun main(){
+// fun nomeDela (parâmetros - se tiver){
+// ações
+// }
+// 
+// 
+// var nomeDoObjeto = classe()
+// 
+// nomeDoObjeto.nomeDela(Parâmetros)
+   
+   val contaCorrente = ContaBanco(190519171922, 1945.00, "Stalin")
+       
+   
+   contaCorrente.consultarSaldo()  
+   contaCorrente.saque(123.5, 1917)
+}   
+   
+   
+ class ContaBanco(val num: Long, var saldo: Double, var dono: String){
+     
+     //Consultar saldo, saque e depósito
+     
+     fun consultarSaldo(){
+         println("O saldo da sua conta é R$$saldo")           
+}
+     fun saque(valor: Double, senha: Int){
+         
+         if(senha == 1917){
+          if(saldo >= valor){
+             saldo -= valor //subtrai o valor do saldo
+             println("Saque de valor R$$valor realizado com sucesso!") 
+     }else if (valor <= 0){
+              println("Impossível sacar R$$valor")
+          }else{
+              println("Saldo insuficiente, saque de R$$valor não realizado.")
+          }     
+   
+         }else{
+             println("Senha incorreta! Tente novamente.")
+         }  
+     }
+ }
+ //-----------------------------------------------------------------------------------------------------------------------------
